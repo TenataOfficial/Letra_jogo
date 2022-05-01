@@ -1,0 +1,17 @@
+C:\Users\CEEP\Documents\SharpDevelop Projects\letra\letra\obj\Debug\letra.vbprojResolveAssemblyReference.cache
+C:\Users\CEEP\Documents\SharpDevelop Projects\letra\letra\obj\Debug\letra.MainForm.resources
+C:\Users\CEEP\Documents\SharpDevelop Projects\letra\letra\obj\Debug\letra.vbproj.GenerateResource.Cache
+C:\Users\CEEP\Documents\SharpDevelop Projects\letra\letra\bin\Debug\letra.exe
+C:\Users\CEEP\Documents\SharpDevelop Projects\letra\letra\bin\Debug\letra.pdb
+C:\Users\CEEP\Documents\SharpDevelop Projects\letra\letra\obj\Debug\letra.exe
+C:\Users\CEEP\Documents\SharpDevelop Projects\letra\letra\obj\Debug\letra.pdb
+C:\Users\Tenataz\Desktop\letra\letra\bin\Debug\letra.exe
+C:\Users\Tenataz\Desktop\letra\letra\bin\Debug\letra.pdb
+C:\Users\Tenataz\Desktop\letra\letra\obj\Debug\letra.vbprojResolveAssemblyReference.cache
+C:\Users\Tenataz\Desktop\letra\letra\obj\Debug\letra.MainForm.resources
+C:\Users\Tenataz\Desktop\letra\letra\obj\Debug\letra.vbproj.GenerateResource.Cache
+C:\Users\Tenataz\Desktop\letra\letra\obj\Debug\letra.exe
+C:\Users\Tenataz\Desktop\letra\letra\obj\Debug\letra.pdb
+C:\Users\Tenataz\Desktop\letra\letra\obj\Debug\letra.pontos.resources
+C:\Users\Tenataz\Desktop\letra\letra\obj\Debug\letra.rank.resources
+C:\Users\Tenataz\Desktop\letra\letra\obj\Debug\letra.perdeu.resources
