@@ -31,7 +31,9 @@
     <DefineConstants>TRACE=1</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data">
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -60,6 +62,10 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="home.Designer.vb">
+      <DependentUpon>home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home.vb" />
     <Compile Include="MainForm.Designer.vb">
       <DependentUpon>MainForm.vb</DependentUpon>
     </Compile>
@@ -79,6 +85,10 @@
       <DependentUpon>rank.vb</DependentUpon>
     </Compile>
     <Compile Include="rank.vb" />
+    <Compile Include="regras.Designer.vb">
+      <DependentUpon>regras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="regras.vb" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\Settings.settings">
@@ -86,6 +96,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="rank.resx">
       <DependentUpon>rank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regras.resx">
+      <DependentUpon>regras.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

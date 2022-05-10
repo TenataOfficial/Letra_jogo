@@ -36,7 +36,6 @@ Partial Class rank
 		Me.components = New System.ComponentModel.Container()
 		Me.timer1 = New System.Windows.Forms.Timer(Me.components)
 		Me.label6 = New System.Windows.Forms.Label()
-		Me.label1 = New System.Windows.Forms.Label()
 		Me.timer2 = New System.Windows.Forms.Timer(Me.components)
 		Me.dataGridView1 = New System.Windows.Forms.DataGridView()
 		CType(Me.dataGridView1,System.ComponentModel.ISupportInitialize).BeginInit
@@ -51,24 +50,13 @@ Partial Class rank
 		'label6
 		'
 		Me.label6.BackColor = System.Drawing.SystemColors.AppWorkspace
-		Me.label6.Location = New System.Drawing.Point(124, 253)
+		Me.label6.Location = New System.Drawing.Point(196, 253)
 		Me.label6.Name = "label6"
 		Me.label6.Size = New System.Drawing.Size(72, 22)
 		Me.label6.TabIndex = 8
 		Me.label6.Text = "Voltar ao jogo"
 		Me.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		AddHandler Me.label6.Click, AddressOf Me.Label6Click
-		'
-		'label1
-		'
-		Me.label1.BackColor = System.Drawing.SystemColors.AppWorkspace
-		Me.label1.Location = New System.Drawing.Point(243, 253)
-		Me.label1.Name = "label1"
-		Me.label1.Size = New System.Drawing.Size(72, 22)
-		Me.label1.TabIndex = 9
-		Me.label1.Text = "Sair"
-		Me.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-		AddHandler Me.label1.Click, AddressOf Me.Label1Click
 		'
 		'timer2
 		'
@@ -106,9 +94,8 @@ Partial Class rank
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.AutoValidate = System.Windows.Forms.AutoValidate.Disable
-		Me.ClientSize = New System.Drawing.Size(327, 279)
+		Me.ClientSize = New System.Drawing.Size(280, 279)
 		Me.ControlBox = false
-		Me.Controls.Add(Me.label1)
 		Me.Controls.Add(Me.label6)
 		Me.Controls.Add(Me.dataGridView1)
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -121,7 +108,6 @@ Partial Class rank
 		Me.ResumeLayout(false)
 	End Sub
 	Private timer2 As System.Windows.Forms.Timer
-	Private label1 As System.Windows.Forms.Label
 	Private label6 As System.Windows.Forms.Label
 	Private dataGridView1 As System.Windows.Forms.DataGridView
 	Private timer1 As System.Windows.Forms.Timer

@@ -9,7 +9,7 @@ Public Partial Class rank
 	
 	
 	Sub RankLoad(sender As Object, e As EventArgs)
-		con = New mySqlConnection("Server=localhost,3306;Database=me;User Id=me;Password=123;")
+		con = New mySqlConnection("Server=db4free.net,3306;Database=letradadostenata;User Id=letradadostenata;Password=dR86K3QUXuw!#Q6;old guids=true;")
 		for i As Integer = 0 To 5
 		Try
 
@@ -27,7 +27,7 @@ Public Partial Class rank
 			DataGridView1.Sort(DataGridView1.Columns(1), System.ComponentModel.ListSortDirection.Descending)
 			 Exit for
 		Catch
-			If i = 3 Then
+			If i = 5 Then
 				MsgBox("não foi possivel conectar ao servidor")
 			End If
 		End Try
@@ -41,12 +41,10 @@ Public Partial Class rank
 		End If		
 	End Sub
 	
-	Sub Label1Click(sender As Object, e As EventArgs)
-Application.exit	
-	End Sub
 	
 	Sub Label6Click(sender As Object, e As EventArgs)
-Application.Restart		
+		home.show
+		Me.close
 	End Sub
 	
 	Sub Timer2Tick(sender As Object, e As EventArgs)

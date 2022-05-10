@@ -153,7 +153,7 @@ Public Partial Class MainForm
 			pontos_enviar = ponto
 			pf = "Você conseguiu" & vbNewLine & "seu tempo foi " & vbNewLine & m & vbNewLine & "Seus pontos = " & ponto 
 			pontos.show()
-			Me.hide
+			Me.close
 		Else If tentativas <= 4 Then
 			tentativas +=1
 			l_n += 5
@@ -230,13 +230,17 @@ Public Partial Class MainForm
 	
 	Dim xa As Integer
 	
+	Dim ho As Boolean = true 
 	
 	Sub MainFormLoad(sender As Object, e As EventArgs)
+		
 		s_random
 		palavra_colocada.Add("-")
+		
 	End Sub
 	
 	Sub  s_random
+		
 		xa = rnd.Next(1,4)
 		If xa = 4 Then
 			xa = 3
@@ -250,7 +254,8 @@ Public Partial Class MainForm
 		 	Case 3
 		 		palavra = lista3(rnd.Next(0,2000))
 		 End Select
-		'' MsgBox(palavra,vbOKOnly)
+		
+		'MsgBox(palavra,vbOKOnly)
 	End Sub
 	
 	Dim minutos As Integer = 0
@@ -268,6 +273,27 @@ Public Partial Class MainForm
 	End Sub
 	
 	Sub Label31Click(sender As Object, e As EventArgs)
-Application.Exit		
+		home.show
+Me.close	
+	End Sub
+	
+	Sub Label26Click(sender As Object, e As EventArgs)
+		p_select = 0
+	End Sub
+	
+	Sub Label27Click(sender As Object, e As EventArgs)
+p_select = 1		
+	End Sub
+	
+	Sub Label28Click(sender As Object, e As EventArgs)
+		p_select = 2
+	End Sub
+	
+	Sub Label29Click(sender As Object, e As EventArgs)
+		p_select =3
+	End Sub
+	
+	Sub Label30Click(sender As Object, e As EventArgs)
+p_select = 5		
 	End Sub
 End Class

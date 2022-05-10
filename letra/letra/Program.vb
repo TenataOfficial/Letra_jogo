@@ -1,11 +1,4 @@
-﻿'
-' Created by SharpDevelop.
-' User: CEEP
-' Date: 28/04/2022
-' Time: 09:27
-' 
-' To change this template use Tools | Options | Coding | Edit Standard Headers.
-'
+﻿
 Imports Microsoft.VisualBasic.ApplicationServices
 
 Namespace My
@@ -16,11 +9,11 @@ Namespace My
 			Me.IsSingleInstance = False
 			Me.EnableVisualStyles = True
 			Me.SaveMySettingsOnExit = True
-			Me.ShutDownStyle = ShutdownMode.AfterMainFormCloses
+			Me.ShutDownStyle = ShutdownMode.AfterAllFormsClose
 		End Sub
 		
 		Protected Overrides Sub OnCreateMainForm()
-			Me.MainForm = My.Forms.MainForm
+			Me.MainForm = My.Forms.home
 		End Sub
 	End Class
 End Namespace

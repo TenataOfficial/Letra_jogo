@@ -13,7 +13,7 @@ Public Partial Class pontos
 	Sub PontosLoad(sender As Object, e As EventArgs)
 		
 		label4.Text = pf
-		con = New mySqlConnection("Server=localhost,3306;Database=me;User Id=me;Password=123;")
+		con = New mySqlConnection("Server=db4free.net,3306;Database=letradadostenata;User Id=letradadostenata;Password=dR86K3QUXuw!#Q6;old guids=true;")
 		
 	End Sub
 	
@@ -72,7 +72,7 @@ Public Partial Class pontos
 			for i As Integer = 0 To 3
 			Try
 			
-			Dim t As String = "INSERT INTO pontos (nome, pontos, minutos) VALUES ('" & nome_enviar & "','" & pontos_enviar & "','" & minutos_enviar &"' )"
+			Dim t As String = "INSERT INTO pontos (nome, pontos, segundos) VALUES ('" & nome_enviar & "','" & pontos_enviar & "','" & minutos_enviar &"' )"
 			Dim sqcom As New MySqlCommand()
 			sqcom.CommandText = t
 			sqcom.Connection = con
@@ -127,7 +127,7 @@ Public Partial Class pontos
 		End If
 		If mandar = True Then
 			rank.show
-			Me.hide
+			Me.close
 		End If
 	End Sub
 	

@@ -302,6 +302,7 @@ Partial Class MainForm
 		Me.label26.Size = New System.Drawing.Size(20, 22)
 		Me.label26.TabIndex = 0
 		Me.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		AddHandler Me.label26.Click, AddressOf Me.Label26Click
 		'
 		'label27
 		'
@@ -311,6 +312,7 @@ Partial Class MainForm
 		Me.label27.Size = New System.Drawing.Size(20, 22)
 		Me.label27.TabIndex = 0
 		Me.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		AddHandler Me.label27.Click, AddressOf Me.Label27Click
 		'
 		'label28
 		'
@@ -320,6 +322,7 @@ Partial Class MainForm
 		Me.label28.Size = New System.Drawing.Size(20, 22)
 		Me.label28.TabIndex = 0
 		Me.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		AddHandler Me.label28.Click, AddressOf Me.Label28Click
 		'
 		'label29
 		'
@@ -329,6 +332,7 @@ Partial Class MainForm
 		Me.label29.Size = New System.Drawing.Size(20, 22)
 		Me.label29.TabIndex = 0
 		Me.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		AddHandler Me.label29.Click, AddressOf Me.Label29Click
 		'
 		'label30
 		'
@@ -338,6 +342,7 @@ Partial Class MainForm
 		Me.label30.Size = New System.Drawing.Size(20, 22)
 		Me.label30.TabIndex = 0
 		Me.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		AddHandler Me.label30.Click, AddressOf Me.Label30Click
 		'
 		'timer1
 		'
@@ -364,7 +369,7 @@ Partial Class MainForm
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(272, 287)
+		Me.ClientSize = New System.Drawing.Size(269, 283)
 		Me.ControlBox = false
 		Me.Controls.Add(Me.label31)
 		Me.Controls.Add(Me.label30)

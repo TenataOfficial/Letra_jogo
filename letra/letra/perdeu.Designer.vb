@@ -103,6 +103,7 @@ Partial Class perdeu
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
 		Me.Name = "perdeu"
 		Me.ShowInTaskbar = false
+		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "Você PERDEU"
 		AddHandler Load, AddressOf Me.PerdeuLoad
 		CType(Me.pictureBox1,System.ComponentModel.ISupportInitialize).EndInit
